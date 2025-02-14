@@ -8,7 +8,7 @@ let wm2_cmd = async () => {
     let sesame_id = process.env.SESAME_UUID;
     let sesame_api_key = process.env.SESAME_API_KEY;
     let key_secret_hex = process.env.KEY_SECRET_HEX;
-    let cmd = 88  //(toggle:88,lock:82,unlock:83)
+    let cmd = 83  //(toggle:88,lock:82,unlock:83)
     let history = "Toggled via API"
     let base64_history = Buffer.from(history).toString('base64');
 
